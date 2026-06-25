@@ -10,12 +10,12 @@ $mail = new PHPMailer(true);
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'labourlinklanka@gmail.com';
-$mail->Password = 'lyjuolzvwpgtsiuk';
+$mail->Username = 'example@gmail.com';
+$mail->Password = 'password';
 $mail->SMTPSecure = 'ssl';
 
 $mail->Port = 465;
-$mail->setFrom('labourlinklanka@gmail.com',"Labour Link");
+$mail->setFrom('example@gmail.com',"Labour Link");
 
 
 
